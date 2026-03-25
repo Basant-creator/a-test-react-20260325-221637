@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test React App - Build Amazing UIs</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <a href="#" class="logo">Test React App</a>
+            <nav class="nav-menu">
+                <ul class="nav-list">
+                    <li><a href="#hero">Home</a></li>
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <button class="mobile-menu-toggle" aria-label="Toggle mobile menu">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <section id="hero" class="hero-section">
+            <div class="container">
+                <h1 class="hero-headline">Unlock the Power of Modern Web Development</h1>
+                <p class="hero-tagline">Build amazing user interfaces with Test React App, the revolutionary framework for creating dynamic web applications.</p>
+                <div class="hero-actions">
+                    <a href="#features" class="btn btn-primary">Get Started</a>
+                    <a href="#contact" class="btn btn-secondary">Learn More</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="features" class="features-section section-bg-light">
+            <div class="container">
+                <h2 class="section-title">Key Features & Benefits</h2>
+                <div class="features-grid">
+                    <div class="feature-item">
+                        <i class="fas fa-code feature-icon"></i>
+                        <h3>Component-Based</h3>
+                        <p>Build encapsulated components that manage their own state, then compose them to make complex UIs.</p>
+                    </div>
+                    <div class="feature-item">
+                        <i class="fas fa-layer-group feature-icon"></i>
+                        <h3>Virtual DOM</h3>
+                        <p>React uses a virtual DOM to optimize rendering performance, leading to faster user experiences.</p>
+                    </div>
+                    <div class="feature-item">
+                        <i class="fas fa-tools feature-icon"></i>
+                        <h3>Developer Tools</h3>
+                        <p>Leverage powerful developer tools for debugging and inspecting your component hierarchy.</p>
+                    </div>
+                    <div class="feature-item">
+                        <i class="fas fa-cubes feature-icon"></i>
+                        <h3>Rich Ecosystem</h3>
+                        <p>Access a vast ecosystem of libraries, tools, and community support to supercharge your development.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="testimonials" class="testimonials-section">
+            <div class="container">
+                <h2 class="section-title">What Our Users Say</h2>
+                <div class="testimonial-grid">
+                    <div class="testimonial-item">
+                        <p>"Test React App has transformed our development workflow. It's intuitive, powerful, and incredibly flexible!"</p>
+                        <span class="testimonial-author">- Jane Doe, CTO at InnovateTech</span>
+                    </div>
+                    <div class="testimonial-item">
+                        <p>"I love how easy it is to build complex UIs with React. The documentation and community support are fantastic."</p>
+                        <span class="testimonial-author">- John Smith, Lead Developer at WebSolutions</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact-section section-bg-light">
+            <div class="container">
+                <h2 class="section-title">Ready to Build Your Next Project?</h2>
+                <p class="section-description">Get in touch with us to learn more about Test React App and how it can benefit your team.</p>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required aria-label="Your Name">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required aria-label="Your Email Address">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message" rows="5" required aria-label="Your Message"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                    <div class="form-status" aria-live="polite"></div>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <a href="#" class="logo footer-logo">Test React App</a>
+                    <p>Build amazing user interfaces with ease.</p>
+                </div>
+                <nav class="footer-nav">
+                    <h4>Quick Links</h4>
+                    <ul class="footer-list">
+                        <li><a href="#hero">Home</a></li>
+                        <li><a href="#features">Features</a></li>
+                        <li><a href="#testimonials">Testimonials</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </nav>
+                <div class="footer-social">
+                    <h4>Connect With Us</h4>
+                    <ul class="social-links">
+                        <li><a href="https://youtube.com/@test" target="_blank" aria-label="YouTube"><i class="fab fa-youtube"></i></a></li>
+                        <li><a href="mailto:test@example.com" aria-label="Email Us"><i class="fas fa-envelope"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 Test React App. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
